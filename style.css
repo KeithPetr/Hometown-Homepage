@@ -4,20 +4,22 @@
 }
 
 body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
   background-color: aquamarine;
 }
 
 .main {
-  margin: 8px 20px;
-  border: 5px solid white;
-  border-radius: 7px;
 }
 
 .top {
   background-image: url("images/Lindsay-background.jpg");
   margin: 0;
-  width: 100%;
-  height: 300px;
+  width: 720px;
+  height: 343px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -29,34 +31,114 @@ body {
 }
 
 .title {
-    background: lightblue;
-    padding: 5px 12px;
+  background: #1D3557;
+  padding: 5px 12px;
+  width: 225px;
+  text-align: center;
+  border-radius: 10px;
 }
 
 .slogan {
-    background: blue;
-    padding: 5px 12px;
-    margin-top: 10px;
+  background: #457B9D;
+  padding: 5px 12px;
+  margin-top: 10px;
+  text-align: center;
+  width: 412px;
+  border-radius: 10px;
+  font-size: 1.25rem;
 }
 
 .middle {
-    
+  margin: 0;
+  background-color: #f1faee;
+  width: 720px;
+  height: 343px;
 }
 
 .middle-activities {
-    margin-top: 20px;
-    display: flex;
-    justify-content: space-around;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  justify-items: center;
 }
 
 .top-3 {
-    text-align: center;
-    margin-top: 20px;
+  text-align: center;
+  padding-top: 10px;
+  font-size: 1.25rem;
+  text-shadow: 0 0 1px grey;
+}
+
+.activity {
+  text-align: center;
+  width: 25%;
+}
+
+.activity-heading {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.activity p {
+  margin: 15px 0 0;
+  color: #1D3557;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .activity-img {
-    height: 150px;
-    width: 150px;
-    border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
 
+.bottom {
+  background-color: #ffffff;
+  width: 720px;
+  height: 343px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.business-card {
+  display: flex;
+  background-color: #A8DADC;
+  width: 400px;
+  height: 294px;
+  align-items: center;
+  border-bottom: 5px solid blue;
+  padding: 0 10px;
+  border-radius: 10px;
+}
+
+.guide-pic {
+  width: 180px;
+  height: 250px;
+  border-radius: 10px;
+}
+
+.business-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.business-text h2 {
+  margin-bottom: 15px;
+}
+
+.business-text p {
+  margin: 10px 10px;
+}
+
+.party {
+  font-size: 1.05rem;
+  font-weight: bold;
+}
+
+.name {
+  font-size: 1.25rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
